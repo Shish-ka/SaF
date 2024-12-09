@@ -11,94 +11,94 @@
         <section>
             <h2>Catalog</h2>
             <ul>
-                <li><a href="">Country</a></li>
-                <li><a href="">Name</a></li>
-                <li><a href="">Price</a></li>
+                <li><a href="" onclick="sortCountry(event)">Country</a></li>
+                <li><a href="" onclick="sortName(event)">Name</a></li>
+                <li><a href="" onclick="sortPrice(event)">Price</a></li>
                 <li>
                     <select name="" id="">
                         <option value="" disabled selected hidden>Filter</option>
-                        <option value="">All</option>
-                        <option value="">Букеты</option>
-                        <option value="">Упаковки</option>
-                        <option value="">Цветы</option>
+                        <option value="All">All</option>
+                        <option value="Букеты">Букеты</option>
+                        <option value="Упаковки">Упаковки</option>
+                        <option value="Цветы">Цветы</option>
                     </select>
                 </li>
             </ul>
             <div class="container">
-                <article>
+                <article data-type="Букеты" data-price="52" data-country="Россия" data-name="букет роза  красная 15">
                     <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name1</h3></a>
+                    <a href=""><h3>Букет из 15 красных роз</h3></a>
                     <p><span>Price</span><span>52$</span></p>
-                    <p><span>Country</span><span>Russia</span></p>
+                    <p><span>Country</span><span>Россия</span></p>
                     <p><span>Type</span><span>Букеты</span></p>
                 </article>
-                <article>
+                <article data-type="Букеты" data-price="30" data-country="Россия" data-name="букет хризантема белая 9 ">
                     <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name2</h3></a>
+                    <a href=""><h3>Букет из 9 хризантем</h3></a>
                     <p><span>Price</span><span>30$</span></p>
-                    <p><span>Country</span><span>Russia</span></p>
+                    <p><span>Country</span><span>Россия</span></p>
                     <p><span>Type</span><span>Букеты</span></p>
                 </article>
-                <article>
+                <article data-type="Цветы" data-price="85" data-country="Беларусь" data-name="роза красная 101">
                     <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name3</h3></a>
-                    <p><span>Price</span><span>20$</span></p>
-                    <p><span>Country</span><span>Belarus</span></p>
+                    <a href=""><h3>101 красная роза</h3></a>
+                    <p><span>Price</span><span>85$</span></p>
+                    <p><span>Country</span><span>Беларусь</span></p>
                     <p><span>Type</span><span>Цветы</span></p>
                 </article>
-                <article>
+                <article data-type="Букеты" data-price="36" data-country="Россия" data-name="букет роза альстромерия">
                     <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name4</h3></a>
-                    <p><span>Price</span><span>45$</span></p>
-                    <p><span>Country</span><span>Russia</span></p>
-                    <p><span>Type</span><span>Букеты</span></p>
-                </article>
-                <article>
-                    <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name5</h3></a>
-                    <p><span>Price</span><span>7$</span></p>
-                    <p><span>Country</span><span>China</span></p>
-                    <p><span>Type</span><span>Упаковки</span></p>
-                </article>
-                <article>
-                    <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name6</h3></a>
-                    <p><span>Price</span><span>9$</span></p>
-                    <p><span>Country</span><span>China</span></p>
-                    <p><span>Type</span><span>Упаковки</span></p>
-                </article>
-                <article>
-                    <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name7</h3></a>
-                    <p><span>Price</span><span>15$</span></p>
-                    <p><span>Country</span><span>Russia</span></p>
-                    <p><span>Type</span><span>Упаковки</span></p>
-                </article>
-                <article>
-                    <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name8</h3></a>
-                    <p><span>Price</span><span>48$</span></p>
-                    <p><span>Country</span><span>Belarus</span></p>
-                    <p><span>Type</span><span>Букеты</span></p>
-                </article>
-                <article>
-                    <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name9</h3></a>
-                    <p><span>Price</span><span>25$</span></p>
-                    <p><span>Country</span><span>Russia</span></p>
-                    <p><span>Type</span><span>Цветы</span></p>
-                </article>
-                <article>
-                    <img src="images/whitel.jpg" alt="" srcset="">
-                    <a href=""><h3>Name10</h3></a>
+                    <a href=""><h3>Букет из роз и альстромерии</h3></a>
                     <p><span>Price</span><span>36$</span></p>
-                    <p><span>Country</span><span>Russia</span></p>
+                    <p><span>Country</span><span>Россия</span></p>
+                    <p><span>Type</span><span>Букеты</span></p>
+                </article>
+                <article data-type="Упаковки" data-price="0.03" data-country="Китай" data-name="пакет конус 30x35">
+                    <img src="images/whitel.jpg" alt="" srcset="">
+                    <a href=""><h3>Пакет конус 30x35</h3></a>
+                    <p><span>Price</span><span>0.03$</span></p>
+                    <p><span>Country</span><span>Китай</span></p>
+                    <p><span>Type</span><span>Упаковки</span></p>
+                </article>
+                <article data-type="Упаковки" data-price="0.04" data-country="Китай" data-name="пакет конус горох 30x35">
+                    <img src="images/whitel.jpg" alt="" srcset="">
+                    <a href=""><h3>Пакет конус в горох 30x35</h3></a>
+                    <p><span>Price</span><span>0.04$</span></p>
+                    <p><span>Country</span><span>Китай</span></p>
+                    <p><span>Type</span><span>Упаковки</span></p>
+                </article>
+                <article data-type="Упаковки" data-price="0.12" data-country="Россия" data-name="пакет конус светло-сиреневый 40x50">
+                    <img src="images/whitel.jpg" alt="" srcset="">
+                    <a href=""><h3>Пакет конус светло-сиреневый 40x50</h3></a>
+                    <p><span>Price</span><span>0.12$</span></p>
+                    <p><span>Country</span><span>Россия</span></p>
+                    <p><span>Type</span><span>Упаковки</span></p>
+                </article>
+                <article data-type="Цветы" data-price="85" data-country="Беларусь" data-name="роза белая 101">
+                    <img src="images/whitel.jpg" alt="" srcset="">
+                    <a href=""><h3>101 белая роза</h3></a>
+                    <p><span>Price</span><span>85$</span></p>
+                    <p><span>Country</span><span>Беларусь</span></p>
                     <p><span>Type</span><span>Цветы</span></p>
+                </article>
+                <article data-type="Цветы" data-price="25" data-country="Россия" data-name="роза красная 11">
+                    <img src="images/whitel.jpg" alt="" srcset="">
+                    <a href=""><h3>11 красных роз</h3></a>
+                    <p><span>Price</span><span>25$</span></p>
+                    <p><span>Country</span><span>Россия</span></p>
+                    <p><span>Type</span><span>Цветы</span></p>
+                </article>
+                <article data-type="Букеты" data-price="43" data-country="Россия" data-name="сборный букет лилия">
+                    <img src="images/whitel.jpg" alt="" srcset="">
+                    <a href=""><h3>Сборный букет с лилией</h3></a>
+                    <p><span>Price</span><span>43$</span></p>
+                    <p><span>Country</span><span>Россия</span></p>
+                    <p><span>Type</span><span>Букеты</span></p>
                 </article>
             </div>
         </section>
     </div>
-
     
+    <script src="JS/app.js"></script>
 </body>
 </html>
